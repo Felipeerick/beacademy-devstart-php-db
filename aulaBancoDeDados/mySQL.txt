@@ -1,0 +1,84 @@
+- primeiro comando depois de instalar o mariabd:
+
+- mariadb -u root -pSenhaqueVoc�ColocouNaHoraDaInstala��o;
+
+******************************************************************************************
+
+- SHOW DATABASES;
+
+/*mostra os bancos de dados que se tem*/
+
+******************************************************************************************
+
+CREATE DATABASES nomeDoBancoDeDados;
+
+/*cria o banco de dados*/
+
+******************************************************************************************
+
+USE nomeDoBancoDeDados;
+
+/*para selecionar o banco de dados*/
+
+******************************************************************************************
+
+CREATE TABLE tb_professor(
+  nome VARCHAR(100) NOT NULL,
+  cpf CHAR(11) NOT NULL,
+  email VARCHAR(255) NOT NULL
+);
+
+/*Criando a tabela*/
+
+******************************************************************************************
+
+DROP TABLE nomeDaTabela
+
+/*apaga a tabela*/
+
+*****************************************************************************
+
+DELETE FROM tb_professor WHERE id = 2;
+
+/*apaga a linha da tabela tb_professor onde o id é igual a 2*/
+
+******************************************************************************************
+
+DELETE FROM tb_professor
+
+/*Vai apagar todas as linhas da tabela*/
+
+***************************************************************************************
+
+insert into tb_professor(nome, email, cpf) values ("Felipe", "ric44@gmail.com", "333.333.33");
+
+/*inserindo uma linha na tabela professor*/
+
+***********************************************************************************************
+
+insert into(nome, cpf, email )
+                values
+("lipe", "quic10@gmail.com", "113.888.31"),
+("lopes", "lopes44@gmail.com", "000.353.03"),
+("lorena", "lore#@gm.com", "222.111.25");
+
+/*Cadastrando mais de uma linha*/
+
+******************************************************************************************
+
+Update tb_professor set nome = "junin", email="juninViolência@gmail.com","332.114.49";
+
+/*se executar sem where vai atualizar todas as linhas*/
+******************************************************************************************
+
+Update tb_professor set nome = "junin", email="juninViolência@gmail.com","332.114.49" 
+where id = 4;
+
+/*Aqui atualiza o id=4/
+*****************************************************************************************
+
+SELECT * FROM tb_professor;
+
+/*Seleciona todos os dados de todos os professores*/
+
+*****************************************************************************************

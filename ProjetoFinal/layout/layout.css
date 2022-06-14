@@ -1,0 +1,205 @@
+*{
+    box-sizing: border-box;
+    text-decoration: none;
+    background-color: #EFEFEF;
+}
+
+/*página inicial*/
+.tabela{
+    width: 83%;  
+    table-layout: fixed;
+    text-align: center;  
+}
+
+.tabela-linha, .tabela .coluna {
+    padding: 0.7rem;
+    margin: 0;
+    border: 1px solid rgb(165, 153, 153);
+    text-align: center;
+  }
+  
+  .tabela-linha .coluna{
+    background-color: white;
+    font-size: 1.2rem;
+    
+  }
+  .tabela-linha{
+    font-weight:bold;
+    background-color: white;
+    font-size: 1.0rem;
+    height: 90px;
+  }
+
+ .produtos{
+    width: 80px;
+    position: relative; 
+    cursor: pointer;
+  } 
+
+
+
+/*Fim*/
+
+/*container-menu */
+
+.container-menu, .tabela{
+    margin: 40px 90px 10px 90px;
+}
+
+.container-menu .menu-button{
+    text-decoration: none;
+    color: black;
+    border-radius: 4px;
+    transition: 0.9s all ;
+    padding: 4px;   
+    border: 1px black solid;
+    margin-right: 5px;
+
+}
+
+.menu-button:hover{
+   background-color: rgb(168, 165, 165);
+}
+
+/*Fim*/
+
+
+/*titulo*/
+.titulo, hr{
+    margin: 10px 90px 0px 90px;
+}
+
+.titulo-login{
+  margin: 30px 90px 0px 360px;
+}
+
+/*FIM*/
+
+
+/*campos Form*/
+
+.input-cadastro, .button{
+    margin: 10px 10px 0px 90px;
+    border: none;
+}
+
+.input-cadastro{
+  background-color: white;
+  font-size: 16px;
+}
+
+.button{
+    border-radius: 6px;
+    padding: 8px;
+    background-color: blue;
+    color: aliceblue;
+    cursor: pointer;
+    transition: 0.9s all;
+    
+}
+
+.button:hover, .button-login:hover{
+  background-color: rgb(64, 21, 121);
+}
+
+.button-login{
+  border-radius: 6px;
+    padding: 8px;
+    background-color: blue;
+    color: aliceblue;
+    border: none;
+    cursor: pointer;
+    transition: 0.9s all;
+}
+
+.button-login, .input-login{
+  margin: 10px 10px 0px 360px;
+  border: none;
+}
+
+.input-login{
+  background-color: white;
+  font-size: 17px;
+}
+
+/*Fim*/
+
+/*admim*/
+
+.erro404{
+    width: 500px;
+    margin: 10px 90px 0px 90px;
+}
+
+/*Fim*/
+
+/*Listar contatos*/
+
+
+
+
+.tabela-contatos{
+   margin: 6px 0px 0px 90px;
+   width: 82.5%;
+  
+  
+}
+
+h1{
+  font-size: 100px;
+}
+
+.tabela-contatos .contatos-coluna{
+  background-color: black;
+  color: white;
+}
+
+.tabela-contato-linha{
+  background-color: antiquewhite;
+}
+
+/*Fim*/
+
+/*Mensagem*/
+
+.mensagem{
+  display: flex;
+   padding: 15px;
+   width: 82.2%;
+   background-color: rgb(89, 200, 252);
+   margin-left: 89px;
+    align-items: center;
+    justify-content: center;
+}
+
+/*Fim*/
+
+/*Botão excluir/editar*/
+
+.button-excluir{
+  background-color: red;
+  color: white;
+  padding:2px;
+  border: 1px solid rgb(58, 71, 148);
+  transition: 0.7s all;
+}
+
+.button-excluir:hover{
+    background-color: rgb(16, 196, 127);
+}
+
+.button-editar{
+  background-color: rgb(253, 207, 0);
+  color: white;
+  padding: 2px;
+  position: relative;
+  left: 7px;
+  border: 1px solid rgb(58, 71, 148);
+  transition: 0.7s all;
+}
+
+.button-editar:hover{
+    background-color: rgb(40, 5, 70);
+}
+
+/*Fim*/
